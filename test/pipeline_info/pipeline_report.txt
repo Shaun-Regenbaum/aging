@@ -1,0 +1,92 @@
+----------------------------------------------------
+                                        ,--./,-.
+        ___     __   __   __   ___     /,-._.--~\
+  |\ | |__  __ /  ` /  \ |__) |__         }  {
+  | \| |       \__, \__/ |  \ |___     \`-._,-`-,
+                                        `._,._,'
+  nf-core/rnaseq vv3.10.1-g6e1e448
+----------------------------------------------------
+Run Name: aging-7
+
+####################################################
+## nf-core/rnaseq execution completed unsuccessfully! ##
+####################################################
+The exit status of the task that caused the workflow execution to fail was: null.
+The full error message was:
+
+Error executing process > 'NFCORE_RNASEQ:RNASEQ:FASTQ_FASTQC_UMITOOLS_TRIMGALORE:TRIMGALORE (291_20_2)'
+
+Caused by:
+  Process requirement exceeds available CPUs -- req: 12; avail: 8
+
+Command executed:
+
+  [ ! -f  291_20_2.fastq.gz ] && ln -s 20_291-2_S20_L002_R1_001.fastq.gz 291_20_2.fastq.gz
+  trim_galore \
+      --fastqc_args '-t 12' \
+      --cores 8 \
+      --gzip \
+      291_20_2.fastq.gz
+  
+  cat <<-END_VERSIONS > versions.yml
+  "NFCORE_RNASEQ:RNASEQ:FASTQ_FASTQC_UMITOOLS_TRIMGALORE:TRIMGALORE":
+      trimgalore: $(echo $(trim_galore --version 2>&1) | sed 's/^.*version //; s/Last.*$//')
+      cutadapt: $(cutadapt --version)
+  END_VERSIONS
+
+Command exit status:
+  -
+
+Command output:
+  (empty)
+
+Work dir:
+  /Users/shaunregenbaum/Desktop/hu-aging/work/b3/ac1b6a0aae9a57b2c0a2889cdbdaf1
+
+Tip: you can replicate the issue by changing to the process work dir and entering the command `bash .command.run`
+
+
+
+
+
+The workflow was completed at 2023-02-25T22:25:13.024597+02:00 (duration: 12.8s)
+
+The command used to launch the workflow was as follows:
+
+  nextflow run nf-core/rnaseq -r 3.10.1 -name aging-7 -resume -params-file nf-params.json
+
+
+
+Pipeline Configuration:
+-----------------------
+ - revision: 3.10.1
+ - runName: aging-7
+ - launchDir: /Users/shaunregenbaum/Desktop/hu-aging
+ - workDir: /Users/shaunregenbaum/Desktop/hu-aging/work
+ - projectDir: /Users/shaunregenbaum/.nextflow/assets/nf-core/rnaseq
+ - userName: shaunregenbaum
+ - profile: standard
+ - configFiles: /Users/shaunregenbaum/.nextflow/assets/nf-core/rnaseq/nextflow.config
+ - input: samplesheet.csv
+ - outdir: test
+ - email: shaunregenbaum@gmail.com
+ - multiqc_title: reporting
+ - genome: GRCh38
+ - fasta: s3://ngi-igenomes/igenomes/Homo_sapiens/NCBI/GRCh38/Sequence/WholeGenomeFasta/genome.fa
+ - gtf: s3://ngi-igenomes/igenomes/Homo_sapiens/NCBI/GRCh38/Annotation/Genes/genes.gtf
+ - gene_bed: s3://ngi-igenomes/igenomes/Homo_sapiens/NCBI/GRCh38/Annotation/Genes/genes.bed
+ - star_index: s3://ngi-igenomes/igenomes/Homo_sapiens/NCBI/GRCh38/Sequence/STARIndex/
+ - Date Started: 2023-02-25T22:25:00.198223+02:00
+ - Date Completed: 2023-02-25T22:25:13.024597+02:00
+ - Pipeline script file path: /Users/shaunregenbaum/.nextflow/assets/nf-core/rnaseq/main.nf
+ - Pipeline script hash ID: f421ddc35d81a0561685927c03e03995
+ - Pipeline repository Git URL: https://github.com/nf-core/rnaseq
+ - Pipeline repository Git Commit: 6e1e448f535ccf34d11cc691bb241cfd6e60a647
+ - Pipeline Git branch/tag: 3.10.1
+ - Nextflow Version: 22.10.7
+ - Nextflow Build: 5853
+ - Nextflow Compile Timestamp: 18-02-2023 20:32 UTC
+
+--
+nf-core/rnaseq
+https://github.com/nf-core/rnaseq

@@ -1,0 +1,7 @@
+{
+  "input": "samplesheet.csv",
+  "outdir": "test",
+  "email": "shaunregenbaum@gmail.com",
+  "multiqc_title": "reporting",
+  "genome": "GRCh38"
+}

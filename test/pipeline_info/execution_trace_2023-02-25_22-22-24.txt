@@ -1,0 +1,2 @@
+task_id	hash	native_id	name	status	exit	submit	duration	realtime	%cpu	peak_rss	peak_vmem	rchar	wchar
+3	c6/57cee9	87695	NFCORE_RNASEQ:RNASEQ:INPUT_CHECK:SAMPLESHEET_CHECK (samplesheet.csv)	COMPLETED	0	2023-02-25 22:22:37.979	148ms	0ms	-	-	-	-	-

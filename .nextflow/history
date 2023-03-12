@@ -1,0 +1,8 @@
+2023-02-25 21:48:32	-	peaceful_dijkstra	-	6e1e448f535ccf34d11cc691bb241cfd6e60a647	a76dc035-11f3-4cb0-a2bc-ac4a71e72403	nextflow run nf-core/rnaseq --input samplesheet.csv -profile docker --outdir aging
+2023-02-25 21:50:43	-	aging	-	6e1e448f535ccf34d11cc691bb241cfd6e60a647	50757631-9bd3-4017-90b3-fcb1164771c1	nextflow run nf-core/rnaseq -r 3.10.1 -name aging -params-file nf-params.json
+2023-02-25 22:10:14	-	aging-2	-	6e1e448f535ccf34d11cc691bb241cfd6e60a647	43b78612-a345-49e1-ba24-4cb27887c3ab	nextflow run nf-core/rnaseq -r 3.10.1 -name aging-2 -params-file nf-params.json
+2023-02-25 22:12:44	-	aging-3	-	6e1e448f535ccf34d11cc691bb241cfd6e60a647	091057da-f804-4fde-959f-71f10ad34895	nextflow run nf-core/rnaseq -r 3.10.1 -name aging-3 -profile docker -params-file nf-params.json
+2023-02-25 22:18:06	18.8s	aging-4	ERR	6e1e448f535ccf34d11cc691bb241cfd6e60a647	091057da-f804-4fde-959f-71f10ad34895	nextflow run nf-core/rnaseq -r 3.10.1 -name aging-4 -resume -params-file nf-params.json
+2023-02-25 22:20:23	14s	aging-5	ERR	6e1e448f535ccf34d11cc691bb241cfd6e60a647	091057da-f804-4fde-959f-71f10ad34895	nextflow run nf-core/rnaseq -r 3.10.1 -name aging-5 -resume -params-file nf-params.json
+2023-02-25 22:22:25	-	aging-6	-	6e1e448f535ccf34d11cc691bb241cfd6e60a647	091057da-f804-4fde-959f-71f10ad34895	nextflow run nf-core/rnaseq -r 3.10.1 -name aging-6 -resume -params-file nf-params.json
+2023-02-25 22:25:00	14.1s	aging-7	ERR	6e1e448f535ccf34d11cc691bb241cfd6e60a647	091057da-f804-4fde-959f-71f10ad34895	nextflow run nf-core/rnaseq -r 3.10.1 -name aging-7 -resume -params-file nf-params.json

@@ -19,7 +19,6 @@ young_organoid_27A,s3://hu-aging/653/27_653n2-1_S27_L001_R1_001.fastq.gz,,revers
 young_organoid_27B,s3://hu-aging/653/27_653n2-1_S27_L002_R1_001.fastq.gz,,reverse
 young_organoid_28A,s3://hu-aging/653/28_653n2-2_S28_L001_R1_001.fastq.gz,,reverse
 young_organoid_28B,s3://hu-aging/653/28_653n2-2_S28_L002_R1_001.fastq.gz,,reverse
-young_organoid_29A,s3://hu-aging/653/29_653n2-3_S29_L001_R1_001.fastq.gz,,reverse
 young_organoid_29B,s3://hu-aging/653/29_653n2-3_S29_L002_R1_001.fastq.gz,,reverse
 old_organoid_1A,s3://hu-aging/Old/1_Old1_S1_L001_R1_001.fastq.gz,,reverse
 old_organoid_1B,s3://hu-aging/Old/1_Old1_S1_L002_R1_001.fastq.gz,,reverse

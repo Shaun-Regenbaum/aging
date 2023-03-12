@@ -1,0 +1,3 @@
+task_id	hash	native_id	name	status	exit	submit	duration	realtime	%cpu	peak_rss	peak_vmem	rchar	wchar
+2	12/621823	88014	NFCORE_RNASEQ:RNASEQ:INPUT_CHECK:SAMPLESHEET_CHECK (samplesheet.csv)	COMPLETED	0	2023-02-25 22:25:12.757	100ms	0ms	-	-	-	-	-
+7	b3/ac1b6a	-	NFCORE_RNASEQ:RNASEQ:FASTQ_FASTQC_UMITOOLS_TRIMGALORE:TRIMGALORE (291_20_2)	FAILED	-	-	-	-	-	-	-	-	-
